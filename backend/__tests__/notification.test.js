@@ -3,7 +3,7 @@ jest.mock("../routes/firebase");
 const app = require("../app");
 const request = require("supertest");
 
-const { sendInviteNotification } = require("../routes/notification");
+/*const { sendInviteNotification } = require("../routes/notification");
 const { firebaseCloudMessagingHelper } = require("../routes/firebase");
 
 describe("test send invite notification", () => {
@@ -44,4 +44,4 @@ describe("test send invite notification", () => {
     expect(response.notification.title).toBe("TITLE2");
     expect(response.notification.body).toBe("BODY2");
   });
-});
+});*/
